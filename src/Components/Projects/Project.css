@@ -1,0 +1,39 @@
+/* Project.css */
+
+.bio {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .cardItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .cardx {
+    width: 100%; /* Take up full width on small screens */
+  }
+  
+  .cardImage {
+    height: 16rem;
+    width: 100%; /* Make the image responsive */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 768px) {
+    .card {
+      width: calc(50% - 15px); /* Two cards per row with a gap of 15px */
+    }
+  }
+  
+  /* Media query for medium screens */
+  @media (min-width: 769px) and (max-width: 1200px) {
+    .card {
+      width: calc(33.33% - 15px); /* Three cards per row with a gap of 15px */
+    }
+  }
+  

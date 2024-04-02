@@ -1,0 +1,77 @@
+
+.Contact {
+  height: 35rem;
+  width: 35rem;
+  margin-top: 15rem;
+  margin-left: 20px;
+}
+
+.Heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 60px;
+  font-weight: 300;
+}
+
+.formone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22rem;
+  height: 3rem;
+  margin: 1rem 6rem;
+  border-radius: 12px;
+}
+
+.form-control.fomrtwo {
+  width: 20rem;
+  height: 15rem;
+  margin: 1rem 7rem;
+  position: relative;
+}
+
+.form-control.fomrtwo::placeholder {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnone {
+  background-color: yellow;
+  margin-left: 13rem;
+}
+
+.ImageOne {
+  margin-left: 45rem;
+  height: 40rem;
+  margin-top: -40rem;
+}
+@media screen and (max-width: 768px) {
+  .Contact {
+      width: calc(100% - 40px);
+      margin-left: 0;
+  }
+
+  .Heading {
+      font-size: 40px;
+  }
+
+  .formone {
+      width: calc(100% - 12rem); 
+      margin: 1rem 6rem; 
+  }
+
+  .form-control.fomrtwo {
+      width: calc(100% - 14rem); 
+      margin: 1rem 7rem; 
+  }
+
+  .btnone {
+      margin-left: 0;
+  }
+
+}

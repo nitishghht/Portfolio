@@ -1,0 +1,72 @@
+/* Default styles for larger screens */
+.navbar {
+  height: 5rem;
+  width: 100vw;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.logo {
+  object-fit: cover;
+  margin-left: -10rem;
+  height: 4rem;
+  width: 5rem;
+}
+
+.MenuListItem {
+  color: #fff;
+  text-decoration: none;
+  margin: 2rem;
+  cursor: pointer;
+}
+
+.MenuListItem:hover {
+  color: rgb(31, 200, 234);
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid rgb(241, 160, 46);
+}
+
+.menubtn {
+  background: #fff;
+  color: black;
+  height: 2.5rem;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+  border-radius: 2rem;
+}
+
+.Menuimg {
+  height: 1rem;
+  width: 1rem;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .logo {
+    margin-left: 0;
+  }
+
+  .MenuListItem {
+    margin: 1rem;
+  }
+
+  .menubtn {
+    padding: 0 1rem;
+  }
+}

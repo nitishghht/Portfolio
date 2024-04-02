@@ -1,0 +1,116 @@
+.about {
+    height: 1024px;
+}
+
+.title {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.disc {
+    height: 7rem;
+    width: 50%;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.titlebars {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-n {
+    display: flex;
+    margin: 10px;
+    gap: 20px;
+}
+
+.bars {
+    display: flex;
+}
+
+.card-title {
+    height: 20px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.ui-image {
+    width: 50px;
+}
+
+.TagLine {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: -40px;
+    gap: 10px;
+    margin-top: 2rem;
+}
+
+.TagLine h1 {
+    height: 50px;
+}
+
+.img.card-img-top.ui-image {
+    height: 50px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+}
+
+.card-text {
+    font-size: 10px;
+}
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: auto;
+    color: black;
+    background-color: bisque;
+}
+
+.tagbar {
+    margin-left: 20px;
+}
+
+.btn {
+    display: flex;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .disc {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+
+    .titlebars {
+        flex-direction: column;
+        height: auto;
+        width: auto;/* Stack elements vertically */
+    }
+
+    .card-n {
+        flex-direction: column; 
+        display: flex;
+        width: 35rem;
+        justify-content: center; 
+        align-items: center;       /* Stack cards vertically */
+    }
+
+    .TagLine {
+        margin-top: 6rem; /* Adjust margin-top for smaller screens */
+    }
+}
